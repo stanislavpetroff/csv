@@ -1,0 +1,3 @@
+layer,load_type,sequence,table,merge_condition,sql
+idm_layer,full,1,Transaction,target.TransactionId=source.TransactionId,
+idm_layer,full,2,TransactionLineItem,target.TransactionId=source.TransactionId and target.TransactionLineId=source.TransactionLineId,
